@@ -27,6 +27,8 @@ Store reusable source images and generated display assets in `images/`.
 | [`images/readme-hardware-specs.png`](images/readme-hardware-specs.png) | 2172 × 724, PNG RGBA | Optional technical infographic retained as a reference asset; it is no longer used as the homepage hero. Generated for this repository with the built-in image generation tool on 2026-09-17; the six labels and values were checked against the documented hardware contract. |
 | [`images/logo-wordmark.png`](images/logo-wordmark.png) | 1648 × 336, PNG RGBA | Transparent black wordmark extracted from the repository's original `images/logo.png`; embedded in both project README files for light backgrounds. |
 | [`images/logo-wordmark-dark.png`](images/logo-wordmark-dark.png) | 1648 × 336, PNG RGBA | White version of the extracted wordmark, used by the README `<picture>` element when GitHub is in dark mode. |
+| [`images/ivy-offwork-spritesheet.jpg`](images/ivy-offwork-spritesheet.jpg) | 1024 × 506, JPEG | User-supplied 8-frame IVY off-work sprite sheet (`2 × 4` grid). Converted by `../tools/gen_ivy_sprites.py` into `../main/ui/ivy_sprites_data.c` (256-color RGB565 palette sprites in Flash `rodata`). |
+| [`images/ivy-turnaround-expressions.jpg`](images/ivy-turnaround-expressions.jpg) | 1024 × 686, JPEG | User-supplied IVY turnaround (front/side/back) and 4-expression sheet. Converted by `../tools/gen_ivy_sprites.py` into `../main/ui/ivy_sprites_data.c` (256-color RGB565 palette sprites in Flash `rodata`). |
 
 - Use descriptive names and document dimensions, pixel format, conversion steps, and destination.
 - Prefer formats suitable for the 240 × 320 RGB565 display and account for Flash and internal RAM.
